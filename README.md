@@ -23,7 +23,11 @@ A collection of implementations of non-cryptographic hash functions for C/C++
 * CRC_32bit
 
 ### Use:
-Include the `hashlib.h` and `xxhash.h` header files and add `hashlib.c` to the build process.
+Add the `hashlib.h` and `xxhash.h` header files and the `hashlib.c` file to the project.
+
+Include the `hashlib.h` header file and add `hashlib.c` to the build process.
+
+---
 
 For xxHash, the ```XXH_STATIC_LINKING_ONLY``` and ```XXH_IMPLEMENTATION``` directives are included in ```hashlib.c```
 
